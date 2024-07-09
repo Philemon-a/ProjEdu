@@ -1,5 +1,5 @@
-const { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged} = require("firebase/auth");
-const { collection, addDoc, getDocs } = require('firebase/firestore');
+const { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, } = require("firebase/auth");
+const { collection, addDoc, getDocs, query, where } = require('firebase/firestore');
 const { auth, db } = require("../config/firebase.js")
 require('dotenv').config();
 
