@@ -6,14 +6,14 @@ const { getAuth } = require('firebase/auth');
 const { getFirestore } = require('firebase/firestore');
 
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
-  authDomain: process.env.AUTHDOMAIN,
-  databaseURL: process.env.DATABASEURL,
-  projectId: process.env.PROJECTID,
-  storageBucket: process.env.STORAGEBUCKET,
-  messagingSenderId: process.env.MESSAGINGSENDERID,
-  appId: process.env.APPID,
-  measurementId: process.env.MEASUREMENTID
+  apiKey: "AIzaSyC_G4G9-B2qHpkDhZ3e1SzP_hOypMCC9cI",
+  authDomain: "project-management-syste-84bfa.firebaseapp.com",
+  databaseURL: "https://project-management-syste-84bfa-default-rtdb.firebaseio.com",
+  projectId: "project-management-syste-84bfa",
+  storageBucket:  "project-management-syste-84bfa.appspot.com",
+  messagingSenderId: "506422307727",
+  appId: "1:506422307727:web:0e32ddcbe674942abb39fa",
+  measurementId: "G-7ZBQPXKJPP"
 };
 
 
