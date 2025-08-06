@@ -274,22 +274,25 @@ Check server status.
 - **Input Validation**: Request body validation
 - **Error Handling**: Comprehensive error handling without exposing sensitive information
 
-## 🏗️ Project Structure
+# Project Structure (Updated)
 
 ```
-src/
-├── config/
-│   └── supabase.ts          # Supabase client configuration
-├── controllers/
-│   └── authController.ts     # Authentication logic
-├── middleware/
-│   ├── auth.ts              # Authentication middleware
-│   └── errorHandler.ts      # Error handling middleware
-├── routes/
-│   └── auth.ts              # Authentication routes
-├── types/
-│   └── auth.ts              # TypeScript type definitions
-└── index.ts                 # Main server file
+/eduflow-backend
+│
+├── src/
+│   ├── app.ts                # Express app setup
+│   ├── server.ts             # App entrypoint
+│   ├── routes/               # All route definitions
+│   ├── controllers/          # Route handler logic
+│   ├── services/             # Business logic + AI
+│   ├── middlewares/          # Auth check, error handling
+│   ├── supabase/             # Supabase client config
+│   ├── types/                # Type definitions
+│   └── utils/                # Helpers (e.g., date utils, AI prompts)
+│
+├── .env
+├── tsconfig.json
+└── package.json
 ```
 
 ## 🧪 Testing
